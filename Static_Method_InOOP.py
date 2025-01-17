@@ -16,3 +16,4 @@ print(a.num)
 a.addtonum(6)
 print(a.num) #-->Static method call by class name or object name both
 print(Math.add(7, 2))
+

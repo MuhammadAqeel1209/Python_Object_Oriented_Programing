@@ -12,18 +12,24 @@ class Car(Vehicle):
     def Speed(self):
         print("This is Faster")
 
+def CheckSpeed(Vehicles):
+    return Vehicles.Speed()
+
 Vec = Vehicle()
 Car = Car()
 Tru = Truck()
 
-Vec.Into()
-Vec.Speed()
+# Vec.Into()
+# Vec.Speed()
+CheckSpeed(Vec)
 print("-----------------")
 
-Car.Into()
-Car.Speed()
+# Car.Into()
+# Car.Speed()
+CheckSpeed(Car)
 print("-----------------")
 
-Tru.Into()
-Tru.Speed()
+CheckSpeed(Tru)
+# Tru.Into()
+# Tru.Speed()
 print("-----------------")
